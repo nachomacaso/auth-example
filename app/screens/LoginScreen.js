@@ -23,7 +23,6 @@ export default class Login extends React.Component {
   }
 
   login = async () => {
-    console.log('clicked');
     const {email, password} = this.state
     const dbConnection = 'Username-Password-Authentication';
 

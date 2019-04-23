@@ -19,7 +19,6 @@ export default class SignUp extends React.Component {
   }
 
   signUp = async () => {
-    console.log('clicked');
     const {first, last, phone, email, password} = this.state
     const dbConnection = 'Username-Password-Authentication';
     
