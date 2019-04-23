@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, Text } from 'react-native';
-import { Card, CardTitle, CardContent, CardAction, CardButton, CardImage } from 'react-native-material-cards';
 import Auth0 from 'react-native-auth0';
 
 const auth0Domain = 'https://nathan-macaso.auth0.com';
