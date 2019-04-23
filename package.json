@@ -1,0 +1,28 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "auth0": "^2.17.0",
+    "expo": "^32.0.0",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^2.2.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-auth0": "^1.4.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-material-buttons": "^0.5.0",
+    "react-native-material-cards": "^1.0.9",
+    "react-native-material-textfield": "^0.12.0",
+    "react-navigation": "^3.8.1",
+    "util": "^0.11.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
